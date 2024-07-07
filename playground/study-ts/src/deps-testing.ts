@@ -7,6 +7,12 @@ import { debounce } from 'lodash-es' // Importing from a entry point of a packag
 // import missing from '@dev/null' // Importing a missing package.
 // console.log(missing)
 
+// Un-comment the following imports to test how dependencies are optimized on the fly.
+// import add from 'lodash-es/add'
+// console.log(add)
+// import capitalize from 'lodash-es/capitalize'
+// console.log(capitalize)
+
 // Prevents dead code elimination from removing the imports.
 console.log(nanoid)
 console.log(zip)
