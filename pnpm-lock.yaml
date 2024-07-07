@@ -1544,6 +1544,15 @@ importers:
 
   playground/ssr-webworker/worker-exports: {}
 
+  playground/study-ts:
+    devDependencies:
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+      vite:
+        specifier: workspace:*
+        version: link:../../packages/vite
+
   playground/tailwind:
     dependencies:
       autoprefixer:
